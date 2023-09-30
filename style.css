@@ -1,0 +1,72 @@
+ .manu-ber  li {
+    padding: 12px;
+    list-style-type: none;
+   /* background-color: rgba(0, 255, 98, 0.575);*/
+    float: left; 
+}
+.manu-ber  li a {
+    text-decoration: none;
+    background-color:rgba(127, 255, 212, 0.747);
+    transition: all 0.5s linear 0.1s;
+    /*float: inline-start;*/
+    float: left;
+    /*transform: rotateX('-90deg');*/
+
+}
+
+.manu-ber li a:hover {
+    
+    color: rgba(104, 67, 98, 0.74);
+}
+
+body {
+    margin: 0;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.manu-ber ul ::after {
+    content: none;
+    display: block;
+    clear: both;
+} 
+
+.manu-ber {
+    margin: 8px;
+    padding: 15px;
+    background-color: burlywood;
+    overflow: hidden;
+}
+
+.text {
+	background-color: rgba(31, 190, 196, 0.801);
+	overflow:hidden;
+    margin: 15px;
+    padding: 15px;
+}
+
+.umar {
+    background-image: url(assets/img/teacher-student-relationships.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(204, 204, 40, 0.692);
+    width:728px;
+    height: 546px;
+}
+.item-2 {
+    position: relative;
+    /*text-decoration: underline;*/
+    text-justify: auto;
+}
+.item-2 h1 {
+     text-decoration: underline;
+}
+ button {
+    background-color: cadetblue;
+    transition: all 0.5s ease-in-out 0.3s;
+ }
+ button:hover {
+    background-color: rgb(22, 218, 97);
+    width: 100px;
+    height: 50px;
+    color: crimson;
+ }
