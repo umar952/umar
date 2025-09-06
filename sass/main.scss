@@ -1,0 +1,99 @@
+@import 'veriables';
+@import 'mixini';
+@import 'footer';
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.p-2 {
+    padding: 20px;
+}
+body {
+    list-style: none;
+}
+img {
+    width: $width;
+    height: auto;
+}
+header {
+    background-color: $bg-color;
+    margin-bottom: 10px;
+
+    nav{
+        ul {
+            list-style: none;
+            Li {
+                display: inline-block;
+                padding: 20px;
+                    
+                &:hover {
+                    background: #000;
+                }
+                a{
+                   
+                    text-decoration: none;
+                    color:#fff;
+                     }
+                    
+            }
+            
+        }
+    }
+
+    .social-icon {
+        padding-top: 40px;
+        background-color: $bg-color2;
+    }
+
+}
+
+.form-control input{
+    display: block;
+    width: $width;
+
+}
+main {
+    @include umar21;
+    padding: 20px;
+}
+.devider-123{
+    margin-top:20px;
+    background-color: lightblue;
+
+}
+
+.devider234 {
+    @extend .devider-123;
+    background-color: antiquewhite;
+}
+.devider345 {
+    @extend .devider-123;
+    background-color: $bg-info;
+}
+section {
+    @include umar21;
+    padding: 20px;
+}
+
+
+.log-in {
+    margin-top:20px;
+    padding: 20px 14px;
+.submit-btn {
+    margin-top: 10px;
+}
+    input {
+        padding: 10px 15px;
+        &::placeholder {
+            color: brown;
+        }
+        &:focus {
+            border:1px solid #333;
+        }
+    }
+}
+
+

@@ -1,0 +1,47 @@
+@mixin umar {
+    width: 25%;
+}
+
+@mixin umar1 {
+    width: 50%;
+}
+
+@mixin umar2 {
+    width: 25%;
+}
+
+@mixin umar21 {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+@mixin footer {
+    background-color:  $bg-primary;
+    width: 100%;
+     display: flex;
+    overflow: hidden;
+    padding: 20px;
+}
+@mixin footer-1 {
+    display: inline-block;
+}
+
+@mixin devider-1 {
+        align-items: flex-start;
+        padding-right: 22px;
+        display: inline-block;
+        margin-right: 20px;
+}
+
+@mixin devider-2 {
+       align-items: center;
+        display: inline-block;
+        flex-grow: 2;
+}
+
+@mixin devider-3 {
+       display: inline-block;
+        margin-left:20px ;
+       
+        align-items: end;
+}

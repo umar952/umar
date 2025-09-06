@@ -1,0 +1,123 @@
+footer {
+  background-color: #6c5ce7;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  padding: 20px;
+}
+footer [id=footer-1] {
+  display: inline-block;
+}
+footer .devider-1 {
+  width: 25%;
+  align-items: flex-start;
+  padding-right: 22px;
+  display: inline-block;
+  margin-right: 20px;
+}
+footer .devider-1 a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .devider-2 {
+  width: 50%;
+  align-items: center;
+  display: inline-block;
+  flex-grow: 2;
+}
+footer .devider-3 {
+  width: 25%;
+  display: inline-block;
+  margin-left: 20px;
+  align-items: end;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.p-2 {
+  padding: 20px;
+}
+
+body {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: green;
+  margin-bottom: 10px;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul Li {
+  display: inline-block;
+  padding: 20px;
+}
+header nav ul Li:hover {
+  background: #000;
+}
+header nav ul Li a {
+  text-decoration: none;
+  color: #fff;
+}
+header .social-icon {
+  padding-top: 40px;
+  background-color: orange;
+}
+
+.form-control input {
+  display: block;
+  width: 100%;
+}
+
+main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.devider-123, .devider345, .devider234 {
+  margin-top: 20px;
+  background-color: lightblue;
+}
+
+.devider234 {
+  background-color: antiquewhite;
+}
+
+.devider345 {
+  background-color: gray;
+}
+
+section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.log-in {
+  margin-top: 20px;
+  padding: 20px 14px;
+}
+.log-in .submit-btn {
+  margin-top: 10px;
+}
+.log-in input {
+  padding: 10px 15px;
+}
+.log-in input::placeholder {
+  color: brown;
+}
+.log-in input:focus {
+  border: 1px solid #333;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,28 @@
+
+footer {
+    @include footer;
+    [id="footer-1"] {
+        @include footer-1;
+        
+    }
+    .devider-1 {
+        @include umar;
+        @include devider-1;
+        a{
+            text-decoration: none;
+            color: #fff
+        }
+        
+    }
+    .devider-2 {
+        @include umar1;
+        @include devider-2;
+        
+        
+    }
+    .devider-3 {
+        @include umar2;
+        @include devider-3;
+        
+    }
+}
